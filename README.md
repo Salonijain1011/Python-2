@@ -177,5 +177,27 @@ output:- [1, 3, 2, 4, 5, 6, 7]</br>
 
 output:- (1, 2, 3, 4)</br>
 4</br>
- 
+
+(12) #Recursion</br>
+     #Factorial of a number</br>
+def factorial(n):</br>
+  if(n==0 or n==1):</br>
+    return 1</br>
+  else:</br>
+    return n * factorial (n-1)</br>
+print(factorial(n=5))</br>
+
+output:-120</br>
+    
+     # Fibonacci series</br>
+def fibonacci(n):</br>
+  if(n==0):</br>
+    return 0</br>
+  elif(n==1):</br>
+    return 1</br>
+  else:</br>
+    return fibonacci(n-1) + fibonacci(n-2)</br>
+print(fibonacci(n=6))</br>
+
+output:- 8</br>
 
