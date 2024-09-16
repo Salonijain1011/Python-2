@@ -189,7 +189,7 @@ print(factorial(n=5))</br>
 
 output:-120</br>
     
-     # Fibonacci series</br>
+ # Fibonacci series</br>
 def fibonacci(n):</br>
   if(n==0):</br>
     return 0</br>
