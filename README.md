@@ -121,3 +121,13 @@ x is zero</br>
   def isless(a,b):</br>
   pass</br>
 
+  #calling of a function</br>
+  a=2</br>
+  b=3</br>
+  isgrater(a,b)</br>
+
+  def name(fname,mname,lname):</br>
+   print("saloni","nn","jain")</br>
+
+  name("salo","ni","jai")</br>
+
