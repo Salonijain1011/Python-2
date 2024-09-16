@@ -69,3 +69,55 @@ yes</br>
 
 output:-enter number0</br>
 x is zero</br>
+
+(5) #for Loop</br>
+    for x in range(5):</br>
+     print(x)</br>
+
+    #example</br>
+    (1) name8 = "rashi"</br>
+        for i in name8:</br>
+          print(i)</br>
+
+    (2) colors = ["red","green"]</br>
+        for color in colors:</br>
+          print(color)</br>
+        for i in color:</br>
+          print(i)</br>
+
+ (6) #while loop</br>
+     i=0</br>
+     while(i<3):</br>
+       print(i)</br>
+       i=i+1</br>
+       
+     #example</br>
+     count=5</br>
+     while(count>0):</br>
+      print(count)</br>
+      count=count-1</br>
+
+(7) # break statements</br>
+    for i in range(10):</br>
+     if(i==8):</br>
+       break  #breaks the loop</br>
+     print("8 x",i+1,"=",8*(i+1))</br>
+
+(8) # continue statements</br>
+    for i in range(10):</br>
+     if(i==8):</br>
+      continue #skips the iteration</br>
+     print("8 x",i+1,"=",8*(i+1))</br>
+
+
+(9)#function</br>
+   def isgrater(a,b):</br>
+   if(a>b):</br>
+    print("first num")</br>
+   else:</br>
+    print("second num")</br>
+    
+  #leaving a function without any body</br>
+  def isless(a,b):</br>
+  pass</br>
+
