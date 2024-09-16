@@ -1,5 +1,5 @@
 # Python-2
-(1) #conditional statements</br>
+(1) # conditional statements</br>
     age =int(input("enter your age:"))</br>
     print("your age is:",age)</br>
     
@@ -35,7 +35,7 @@ you can drive</br>
 
 output:- yes</br>
 
-(3) #nested if-else</br>
+(3) # nested if-else</br>
     num=int(input("enter"))</br>
     if(num<0):</br>
       print("negative")</br>
@@ -53,7 +53,7 @@ output:- enter3</br>
 yes</br>
 
 
-(4) #match case statement</br>
+(4) # match case statement</br>
     x=int(input("enter number"))</br>
     match x:</br>
      case 0:</br>
@@ -70,11 +70,11 @@ yes</br>
 output:-enter number0</br>
 x is zero</br>
 
-(5) #for Loop</br>
+(5) # for Loop</br>
     for x in range(5):</br>
      print(x)</br>
 
-    #example</br>
+    # example</br>
     (1) name8 = "rashi"</br>
         for i in name8:</br>
           print(i)</br>
@@ -85,7 +85,7 @@ x is zero</br>
         for i in color:</br>
           print(i)</br>
 
- (6) #while loop</br>
+ (6) # while loop</br>
      i=0</br>
      while(i<3):</br>
        print(i)</br>
@@ -110,7 +110,7 @@ x is zero</br>
      print("8 x",i+1,"=",8*(i+1))</br>
 
 
-(9)#function</br>
+(9) # function</br>
    def isgrater(a,b):</br>
    if(a>b):</br>
     print("first num")</br>
@@ -128,7 +128,7 @@ x is zero</br>
 
 output:- second num</br>
 
-(10) #lists</br>
+(10) # lists</br>
     marks = [3,4,5,6,7,4,5,5]</br>
     print(marks)</br>
     print(marks[0])</br>
@@ -148,7 +148,7 @@ output:- [3, 4, 5, 6, 7, 4, 5, 5]</br>
 [4, 5, 6, 7, 4]</br>
 [4, 6, 4] </br>
 
-    #list methods</br>
+    # list methods</br>
     l=[1,3,2,4,5,6,7]</br>
     print(l)</br>
     l.append(8) #adds a value in list</br>
@@ -167,7 +167,7 @@ output:- [1, 3, 2, 4, 5, 6, 7]</br>
 [8, 7, 6, 5, 4, 3, 2, 1, 1, 2, 3]</br>
 
 
-(11) #tuples can never be changes (immutable)</br>
+(11) # tuples can never be changes (immutable)</br>
      tup=(1,2,3,4)</br>
      print(tup)</br>
      ref=tup.count(1)</br>
@@ -178,7 +178,7 @@ output:- [1, 3, 2, 4, 5, 6, 7]</br>
 output:- (1, 2, 3, 4)</br>
 4</br>
 
-(12) #Recursion</br>
+(12) # Recursion</br>
      #Factorial of a number</br>
 def factorial(n):</br>
   if(n==0 or n==1):</br>
@@ -189,7 +189,7 @@ print(factorial(n=5))</br>
 
 output:-120</br>
     
- # Fibonacci series</br>
+  # Fibonacci series</br>
 def fibonacci(n):</br>
   if(n==0):</br>
     return 0</br>
