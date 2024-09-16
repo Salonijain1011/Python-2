@@ -128,5 +128,54 @@ x is zero</br>
 
 output:- second num</br>
 
+(10) #lists</br>
+    marks = [3,4,5,6,7,4,5,5]</br>
+    print(marks)</br>
+    print(marks[0])</br>
+    print(marks[1])</br>
+    print(marks[2])</br>
+    print(marks[3])</br>
+    print(marks[-3])</br>
+    print(marks[1:6])</br>
+    print(marks[1:6:2])# jump index</br>
+
+output:- [3, 4, 5, 6, 7, 4, 5, 5]</br>
+3</br>
+4</br>
+5</br>
+6</br>
+4</br>
+[4, 5, 6, 7, 4]</br>
+[4, 6, 4] </br>
+
+    #list methods</br>
+    l=[1,3,2,4,5,6,7]</br>
+    print(l)</br>
+    l.append(8) #adds a value in list</br>
+    l.sort()#sorts a list</br>
+    l.sort(reverse=True)</br>
+    l.reverse</br>
+    print(l.index(1))</br>
+    print(l.count(1))</br>
+    m=[1,2,3]</br>
+    l.extend(m)# elements of m are added in l</br>
+    print(l)</br>
+
+output:- [1, 3, 2, 4, 5, 6, 7]</br>
+7</br>
+1</br>
+[8, 7, 6, 5, 4, 3, 2, 1, 1, 2, 3]</br>
+
+
+(11) #tuples can never be changes (immutable)</br>
+     tup=(1,2,3,4)</br>
+     print(tup)</br>
+     ref=tup.count(1)</br>
+     ref=tup.index(2)</br>
+     ref=len(tup)</br>
+     print(ref)</br>
+
+output:- (1, 2, 3, 4)</br>
+4</br>
  
 
