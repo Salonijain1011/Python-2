@@ -126,8 +126,7 @@ x is zero</br>
   b=3</br>
   isgrater(a,b)</br>
 
-  def name(fname,mname,lname):</br>
-   print("saloni","nn","jain")</br>
+output:- second num</br>
 
-  name("salo","ni","jai")</br>
+ 
 
